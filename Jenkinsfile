@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               ssh 'mvn --version'
+               javac hello.java
             }
         }
     }

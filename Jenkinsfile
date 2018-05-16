@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               C:\Windows\System32\cmd.exe 'mvn --version'
+               bat (/"D:\Jenkins\maven\bin\mvn" --version/)
             }
         }
     }

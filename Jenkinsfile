@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               cmd 'mvn --version'
+               C:\Windows\System32\cmd.exe 'mvn --version'
             }
         }
     }

@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               bat 'javac hello.java'
+               bat 'mvn --version'
             }
         }
     }
